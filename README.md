@@ -11,6 +11,14 @@ Octop 自带的飞书通道能收发消息，但真拿去给同事用，很快�
         → 流式投影 → 原生气泡或交互卡片 → 回调校验
 ```
 
+## 效果预览
+
+以下为真实飞书交互效果，敏感信息已移除。
+
+![独立话题与上下文](docs/screenshots/topic-isolation.png)
+
+![任务执行过程](docs/screenshots/task-progress.png)
+
 ## 装完之后有什么不一样
 
 | 场景 | Octop 原生飞书通道 | 安装本 Skill 后 |

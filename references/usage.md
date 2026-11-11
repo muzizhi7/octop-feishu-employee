@@ -9,7 +9,7 @@
 git clone https://github.com/muzizhi7/octop-feishu-employee.git ~/.codex/skills/octop-feishu-employee
 
 # 2. 从 GitHub Releases 下载 zip 后解压到 Skill 目录
-unzip octop-feishu-employee-skill-v1.1.1.zip -d ~/.codex/skills/
+unzip octop-feishu-employee-skill-v1.1.2.zip -d ~/.codex/skills/
 
 # 3. 从 SkillHub 安装：https://skillhub.cn/skills/octop-feishu-employee
 ```
@@ -23,7 +23,7 @@ unzip octop-feishu-employee-skill-v1.1.1.zip -d ~/.codex/skills/
 压缩包内 `bundle-manifest.json` 是逐文件 SHA-256 清单，可用来核对解压结果是否完整；它不是发布者签名。发布页同时提供 `.zip.sha256` 供整包校验：
 
 ```sh
-shasum -a 256 -c octop-feishu-employee-skill-v1.1.1.zip.sha256
+shasum -a 256 -c octop-feishu-employee-skill-v1.1.2.zip.sha256
 ```
 
 ## 检测
