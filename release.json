@@ -1,0 +1,16 @@
+{
+  "version": "1.1.0",
+  "profile": "octop-1.0.2-python3.12-macos",
+  "presentation": 6,
+  "files": {
+    "octop_gateway/channels/feishu.py": "c0d27ad097ccc4ec67a8e279eaebfba6a9ef889c59c7c09445c0d4e5d3d3d996",
+    "octop/infra/gateway/gateway.py": "a846599d26525c5544a0a81e4be8eb0a48f35c2b3966e394bc8d46a9648d4ed0",
+    "octop/infra/gateway/process/processor.py": "4b8dbaaf3031352ead08b603e1593f2dc275a22c9ee1e31cba93ac8ae2fc07ce",
+    "octop/infra/gateway/process/stream_project.py": "af287ed97e5bf094d2cc55174add60e10f318ee01fc48213a3b44cac561660e4",
+    "octop/infra/gateway/hitl/coordinator.py": "ef1482c5e8899d9120ce2d3a2f9f8f89cf660703c9edbff3a1cee3d6268d636c",
+    "octop/infra/agents/manager.py": "ca7625e03159429e6a9f419b7f3b4b3e31091f853c76d3444600125192e72b85",
+    "octop_gateway/channels/feishu_controls.py": "5f6bcae98a14f6e7f0854510bb16f54d445eacefa54d0c591b7a12c483981a80",
+    "octop_gateway/channels/feishu_pause.py": "a2660c57ac225d850ff0b11b72c341ca5a166ddf35b32cc1cdc86c25d395a675",
+    "octop_gateway/channels/feishu_preferences.py": "b3a5f3eaf85e15a5dd89dc5f2045a9cae7b878703ae8c31b0c9d806861a31402"
+  }
+}

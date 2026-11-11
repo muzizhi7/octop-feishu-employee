@@ -1,0 +1,4 @@
+interface:
+  display_name: "Octop 飞书数字员工"
+  short_description: "检测环境并安装、维护、验收 Octop 飞书数字员工交互补丁"
+  default_prompt: "使用 $octop-feishu-employee 检测本机环境，安装或继续维护 Octop 飞书数字员工补丁。"

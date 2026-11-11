@@ -1,0 +1,53 @@
+name: 兼容性报告 / Compatibility report
+description: 报告 doctor 输出，帮助确认新版本或其他平台是否可用
+title: "[compat] Octop <版本> / <系统>-<架构> / Python <版本>"
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        `doctor` 默认不读取凭证、不输出聊天正文，可以直接粘贴。若你额外指定了 `--state-dir` 等参数，粘贴前再确认一次。
+  - type: input
+    id: octop
+    attributes:
+      label: Octop 版本
+      placeholder: 1.0.2
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: 系统与架构
+      placeholder: macOS 15 / arm64
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Octop 运行时 Python
+      placeholder: 3.12.12
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: doctor 输出
+      render: json
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: 是否已尝试安装
+      options:
+        - 仅检测
+        - 已安装，基础对话正常
+        - 已安装，但某些能力异常
+        - 安装被阻断
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明
+      description: 非标准目录、容器、多用户、公司策略等

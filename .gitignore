@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本机运行数据（绝不入库）
+deps/
+models/
+managed/
+backups/
+upgrade-backups/
+output/
+installation.json
+guard-state.json
+guard-config.json
+guard.lock
+status.md
+startup.log
+*.log
+*.db
+*.sqlite
+*.zip
+*.sha256
+
+# 凭证
+.env
+.env.*
+*.pem
+*.key
+
+# 系统与编辑器
+.DS_Store
+.idea/
+.vscode/

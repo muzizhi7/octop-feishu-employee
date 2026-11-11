@@ -1,0 +1,39 @@
+name: 行为异常 / Bug report
+description: 按钮没反应、引用丢失、话题未隔离、附件打不开等
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 描述你看到的现象，以及期望的行为
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 在测试群 @机器人，问……
+        2. 点击「暂停」
+        3. 观察……
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: Octop 1.0.2 / macOS arm64 / Python 3.12.12
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: status 输出
+      description: 运行 python3 scripts/employee_patch.py status，确认不含敏感信息后粘贴
+      render: json
+  - type: markdown
+    attributes:
+      value: |
+        涉及安全问题请改用 Private vulnerability reporting，不要在公开 issue 里贴凭证或聊天记录。
