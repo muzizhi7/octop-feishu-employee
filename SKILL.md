@@ -1,7 +1,7 @@
 ---
 name: octop-feishu-employee
 slug: octop-feishu-employee
-version: 1.1.0
+version: 1.1.1
 displayName: Octop 飞书数字员工
 description: 检测环境并安装、验收、回滚或继续开发 Octop 飞书数字员工交互补丁；用于引用、话题、任务状态、问答确认、暂停停止及媒体收发的维护。
 summary: 把本地 Octop Agent 变成可用的飞书数字员工，补齐引用、原生话题、任务控制、真实附件收发与升级自动恢复。
